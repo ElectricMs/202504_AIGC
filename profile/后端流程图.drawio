@@ -31,13 +31,13 @@
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-1" value="[文本对话/讲解]（/chat）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="510" y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hIzQJm_3JNzrbFtOD5tb-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-5" target="hIzQJm_3JNzrbFtOD5tb-11">
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-5" target="hIzQJm_3JNzrbFtOD5tb-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-5" value="图片Base64编码&lt;div&gt;调用AI模型&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hIzQJm_3JNzrbFtOD5tb-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-6" target="hIzQJm_3JNzrbFtOD5tb-11">
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-6" target="hIzQJm_3JNzrbFtOD5tb-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-6" value="组装参数&lt;div&gt;调用AI模型&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -47,25 +47,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-9" value="AI返回识别结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="200" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="200" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-10" target="hIzQJm_3JNzrbFtOD5tb-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-10" value="AI返回讲解内容&lt;div&gt;（流式或普通）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="530" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hIzQJm_3JNzrbFtOD5tb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-11" target="hIzQJm_3JNzrbFtOD5tb-9">
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-11" target="hIzQJm_3JNzrbFtOD5tb-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hIzQJm_3JNzrbFtOD5tb-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-11" target="hIzQJm_3JNzrbFtOD5tb-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="hIzQJm_3JNzrbFtOD5tb-11" value="AI大模型API&lt;div&gt;（vivo BlueLM）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="354" y="450" width="120" height="60" as="geometry" />
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-11" value="AI大模型API&lt;div&gt;（vivo BlueLM-70B）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hIzQJm_3JNzrbFtOD5tb-16" value="&lt;div&gt;后端处理结果&lt;/div&gt;&lt;div&gt;前端展示&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="354" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="hIzQJm_3JNzrbFtOD5tb-23" target="hIzQJm_3JNzrbFtOD5tb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hIzQJm_3JNzrbFtOD5tb-23" value="AI大模型API&lt;div&gt;（多模态模型-ocr）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
